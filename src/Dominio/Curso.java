@@ -39,6 +39,7 @@ public class Curso {
     public void setEstudiantesEncimaPromedio(){
         int estudiantes=0;
         double promedios_es = 0;
+        //bloque de codigo repetido ya esta en el metodo anterior
         for (int i = 0; i < 12; i++) {
             double n = notas[i];
             promedios_es = n + promedios_es;
